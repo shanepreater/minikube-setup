@@ -61,7 +61,8 @@ setup(
     ],
     python_requires='>=3.7.0, !=2.*',
     install_requires=[
-       "flask >= 1.0.2"
+        "fastapi>=0.48.0",
+        "uvicorn>=0.11.2"
     ],
     extras_require={
         # eg:
@@ -74,7 +75,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'helloworld = kubehello.app:main',
+            'helloworld = kubehello.main:hello_world',
+            'start-server = kubehelp.main:start'
         ]
     },
 )
