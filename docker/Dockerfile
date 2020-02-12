@@ -5,6 +5,7 @@ ADD kubehello.tar.gz /
 WORKDIR /
 
 ENV SERVER_PORT 8080
+ENV SERVER_HOST 0.0.0.0
 
 RUN cd kubehello-1.0.0 \
  && python setup.py install

@@ -9,7 +9,7 @@ cp dist/kubehello* target/kubehello.tar.gz
 cp docker/Dockerfile target
 
 # Build the docker image
-docker build -t hellokube:latest target
+docker build -t kubehello:latest target
 
 # Finally remove the working directory
-#rm -r target
+rm -r target

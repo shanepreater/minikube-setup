@@ -76,7 +76,7 @@ setup(
     entry_points={
         'console_scripts': [
             'helloworld = kubehello.main:hello_world',
-            'start-server = kubehelp.main:start'
+            'start-server = kubehello.main:start'
         ]
     },
 )
