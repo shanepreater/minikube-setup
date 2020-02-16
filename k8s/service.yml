@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: kubehello
+  name: hello-deployment
+spec:
+  ports:
+    - port: PORT_PLACEHOLDER
+      protocol: TCP
+      targetPort: PORT_PLACEHOLDER
+  selector:
+    app: kubehello
+  type: LoadBalancer
