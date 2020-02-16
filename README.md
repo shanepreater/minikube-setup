@@ -43,10 +43,10 @@ hello-deployment-69985c5b8f-znmqq   1/1     Running   0          8m27s
 ## Output
 Once the application is running you can refresh the webpage.
 You will then see something like:
-![Example page output](./docs/app01.png)
+![Example page output](docs/app01.png)
 
 After hitting refresh a few times, you will see the served from location update:
-![Second example](./docs/app02.png)
+![Second example](docs/app02.png)
 
 ## Cleaing up
 Once you are finished running the app.
