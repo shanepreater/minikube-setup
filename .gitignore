@@ -74,3 +74,4 @@ docs/_build
 src/*/_version.py
 
 /target/
+/dep.yml
