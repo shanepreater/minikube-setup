@@ -48,7 +48,7 @@ You will then see something like:
 After hitting refresh a few times, you will see the served from location update:
 ![Second example](docs/app02.png)
 
-## Cleaing up
+## Cleaning up
 Once you are finished running the app.
 Simply open the terminal and run `minikube delete`
  
